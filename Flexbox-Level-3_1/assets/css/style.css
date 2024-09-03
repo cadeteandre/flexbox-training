@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----- Styling header start -----*/
+
+header {
+    width: 100vw;
+    height: 77px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.logo {
+    color: #666;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin-right: 2rem;
+    padding: 0 11px 0 30px;
+}
+
+.nav-menu a {
+    color: #333;
+}
+
+.nav-menu a:hover {
+    color: #337ab7;
+}
+
+/* ----- Styling header end -----*/
+/* ----- Styling main start -----*/
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1512px;
+    height: 1007.53px;
+    background-image: url(../images/photo-1443527216320-7e744084f5a7-1.jpg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.first-section-text {
+    margin-top: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-section-text h1 {
+    width: 951.98;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+}
+
+.first-section-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.first-section a {
+    display: inline-block;
+    width: 200px;
+    height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    align-self: center;
+}
+
+.first-section-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+.read-more {
+    background-color: #745CF9;
+    border: 2px solid #745CF9;
+}
+
+.read-more:hover {
+    background-color: #35287c;
+    border-color: #35287c;
+}
+
+.download-now {
+    border: 2px solid #FFFFFF;
+}
+
+.download-now:hover {
+    color: #333;
+    background-color: #FFFFFF;
+}
+/* ----- Styling main end -----*/
+/* ----- Styling footer start -----*/
+/* ----- Styling footer end -----*/
